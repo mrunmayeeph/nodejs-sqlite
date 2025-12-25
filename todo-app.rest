@@ -1,0 +1,15 @@
+### GET /
+GET http://localhost:5003
+
+### POST /api/auth/register
+POST http://localhost:5003/auth/register
+Content-Type: application/json
+
+{
+    "username": "testuser@gmail.com",
+    "password": "testpassword"
+}
+
+### POST /api/auth/login
+POST http://localhost:5003/auth/login
+
